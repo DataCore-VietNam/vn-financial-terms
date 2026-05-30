@@ -86,8 +86,6 @@ target-version = "py310"
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "N", "SIM", "ANN", "RUF"]
 ignore = [
-    "ANN101",  # self annotation not required
-    "ANN102",  # cls annotation not required
 ]
 
 [tool.ruff.lint.per-file-ignores]

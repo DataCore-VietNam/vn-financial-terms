@@ -5,7 +5,6 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 from typing import Any
 
-
 ALLOWED_DOMAINS: frozenset[str] = frozenset(
     {
         "accounting",
@@ -76,8 +75,7 @@ class Term:
             raise ValueError("Term.vi must be a non-empty string")
         if self.domain not in ALLOWED_DOMAINS:
             raise ValueError(
-                f"Term.domain must be one of {sorted(ALLOWED_DOMAINS)!r}, "
-                f"got {self.domain!r}"
+                f"Term.domain must be one of {sorted(ALLOWED_DOMAINS)!r}, got {self.domain!r}"
             )
         # Coerce lists → tuples (YAML loader produces lists).
         if isinstance(self.alt_vi, list):

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import dataclasses
+
 import pytest
 
 from vn_financial_terms.models import ALLOWED_DOMAINS, Term
@@ -43,26 +45,32 @@ def test_term_alt_vi_list_coerced_to_tuple():
 
 def test_term_is_frozen():
     t = Term(en="Revenue", vi="Doanh thu", domain="accounting")
-    with pytest.raises(Exception):
+    with pytest.raises(dataclasses.FrozenInstanceError):
         t.en = "something else"  # type: ignore[misc]
 
 
 def test_term_invalid_en_raises():
-    with pytest.raises(ValueError, match="Term.en"):
+    with pytest.raises(ValueError, match=r"Term\.en"):
         Term(en="", vi="Doanh thu", domain="accounting")
 
 
 def test_term_invalid_domain_raises():
-    with pytest.raises(ValueError, match="Term.domain"):
+    with pytest.raises(ValueError, match=r"Term\.domain"):
         Term(en="Revenue", vi="Doanh thu", domain="invalid_domain")
 
 
 def test_allowed_domains_complete():
     expected = {
-        "accounting", "tax", "banking", "markets",
-        "regulatory", "real_estate", "insurance", "macro",
+        "accounting",
+        "tax",
+        "banking",
+        "markets",
+        "regulatory",
+        "real_estate",
+        "insurance",
+        "macro",
     }
-    assert ALLOWED_DOMAINS == expected
+    assert expected == ALLOWED_DOMAINS
 
 
 def test_term_to_dict_excludes_none():

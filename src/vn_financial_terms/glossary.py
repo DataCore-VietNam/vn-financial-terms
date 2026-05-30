@@ -12,7 +12,7 @@ import csv
 import io
 import json
 from importlib import resources
-from typing import Literal
+from typing import Any, Literal
 
 import yaml
 
@@ -31,13 +31,11 @@ def _load_all() -> list[Term]:
         with entry.open("r", encoding="utf-8") as fh:
             raw = yaml.safe_load(fh) or []
         if not isinstance(raw, list):
-            raise ValueError(
-                f"Expected a YAML list in {entry.name}, got {type(raw).__name__}"
-            )
+            raise ValueError(f"Expected a YAML list in {entry.name}, got {type(raw).__name__}")
         for i, row in enumerate(raw):
             if not isinstance(row, dict):
                 raise ValueError(f"Entry #{i} in {entry.name} is not a mapping")
-            cleaned: dict = {}
+            cleaned: dict[str, Any] = {}
             for k, v in row.items():
                 if k in ("alt_vi", "alt_en"):
                     cleaned[k] = tuple(v) if isinstance(v, list) else ()
@@ -216,7 +214,7 @@ def export(
     if fmt == "json":
         rows = []
         for t in pool:
-            row: dict = {
+            row: dict[str, object] = {
                 source: t.vi if source == "vi" else t.en,
                 target: t.en if target == "en" else t.vi,
                 "domain": t.domain,
@@ -240,9 +238,7 @@ def export(
         for t in sorted(pool, key=lambda x: (x.domain, x.en)):
             src_val = t.vi if source == "vi" else t.en
             tgt_val = t.en if target == "en" else t.vi
-            lines.append(
-                f"| {src_val} | {tgt_val} | {t.domain} | {t.notes or ''} |"
-            )
+            lines.append(f"| {src_val} | {tgt_val} | {t.domain} | {t.notes or ''} |")
         return "\n".join(lines)
 
     # Default: CSV

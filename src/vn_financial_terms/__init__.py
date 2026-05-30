@@ -35,17 +35,17 @@ __version__ = "0.2.0"
 __all__ = [
     # Core model
     "Term",
-    # Lookup / query
-    "lookup",
-    "translate",
-    "search",
+    # AI translation
+    "TerminologyGuide",
+    # Package metadata
+    "__version__",
     "all_terms",
+    "build_translation_prompt",
     "by_domain",
     # Export
     "export",
-    # AI translation
-    "TerminologyGuide",
-    "build_translation_prompt",
-    # Package metadata
-    "__version__",
+    # Lookup / query
+    "lookup",
+    "search",
+    "translate",
 ]

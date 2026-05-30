@@ -6,10 +6,10 @@ import pytest
 
 from vn_financial_terms import Term, all_terms, by_domain, export, lookup, search, translate
 
-
 # ---------------------------------------------------------------------------
 # lookup
 # ---------------------------------------------------------------------------
+
 
 def test_lookup_by_english_term():
     term = lookup("Revenue")
@@ -93,6 +93,7 @@ def test_lookup_vcsh():
 # translate
 # ---------------------------------------------------------------------------
 
+
 def test_translate_to_english():
     assert translate("Doanh thu", to="en") == "Revenue"
     assert translate("TSCĐ", to="en") == "Fixed assets"
@@ -116,6 +117,7 @@ def test_translate_invalid_target_raises():
 # ---------------------------------------------------------------------------
 # all_terms / by_domain
 # ---------------------------------------------------------------------------
+
 
 def test_all_terms_returns_terms():
     terms = all_terms()
@@ -158,8 +160,14 @@ def test_by_domain_unknown_returns_empty():
 def test_domain_coverage():
     seen = {t.domain for t in all_terms()}
     for domain in (
-        "accounting", "tax", "banking", "markets",
-        "regulatory", "real_estate", "insurance", "macro",
+        "accounting",
+        "tax",
+        "banking",
+        "markets",
+        "regulatory",
+        "real_estate",
+        "insurance",
+        "macro",
     ):
         assert domain in seen, f"missing entries for domain {domain!r}"
 
@@ -167,6 +175,7 @@ def test_domain_coverage():
 # ---------------------------------------------------------------------------
 # search
 # ---------------------------------------------------------------------------
+
 
 def test_search_partial_match():
     results = search("thuế")
@@ -198,6 +207,7 @@ def test_search_empty_returns_empty():
 # export
 # ---------------------------------------------------------------------------
 
+
 def test_export_csv():
     csv_out = export("csv", source="vi", target="en")
     assert "vi,en,domain" in csv_out
@@ -206,6 +216,7 @@ def test_export_csv():
 
 def test_export_json():
     import json
+
     json_out = export("json", source="vi", target="en")
     data = json.loads(json_out)
     assert isinstance(data, list)

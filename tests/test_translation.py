@@ -46,8 +46,8 @@ def test_build_system_prompt_vi_to_en():
     prompt = guide.build_system_prompt(source="vi", target="en")
     assert "Vietnamese-to-English" in prompt
     assert "Mandatory Glossary" in prompt
-    assert "Doanh thu" in prompt   # vi source term present
-    assert "Revenue" in prompt     # en target term present
+    assert "Doanh thu" in prompt  # vi source term present
+    assert "Revenue" in prompt  # en target term present
 
 
 def test_build_system_prompt_en_to_vi():
@@ -58,8 +58,7 @@ def test_build_system_prompt_en_to_vi():
 
 def test_build_system_prompt_abbreviations():
     guide = TerminologyGuide(domains=["tax"])
-    prompt = guide.build_system_prompt(source="vi", target="en",
-                                       include_abbreviations=True)
+    prompt = guide.build_system_prompt(source="vi", target="en", include_abbreviations=True)
     assert "Abbreviations" in prompt
     # TNDN should appear somewhere
     assert "TNDN" in prompt
@@ -73,6 +72,7 @@ def test_build_glossary_block_markdown():
 
 def test_build_glossary_block_json():
     import json
+
     guide = TerminologyGuide(domains=["accounting"])
     block = guide.build_glossary_block(fmt="json")
     data = json.loads(block)
@@ -87,6 +87,7 @@ def test_build_glossary_block_csv():
 
 def test_to_json():
     import json
+
     guide = TerminologyGuide(domains=["tax"])
     out = guide.to_json()
     data = json.loads(out)
@@ -108,16 +109,16 @@ def test_to_markdown():
 
 
 def test_build_translation_prompt_convenience():
-    prompt = build_translation_prompt(source="vi", target="en",
-                                      domains=["accounting"])
+    prompt = build_translation_prompt(source="vi", target="en", domains=["accounting"])
     assert "Mandatory Glossary" in prompt
     assert "Revenue" in prompt
 
 
 def test_guide_terms_explicit():
     from vn_financial_terms import lookup
+
     t = lookup("Revenue")
     assert t is not None
     guide = TerminologyGuide(terms=[t])
     assert len(guide) == 1
-    assert list(guide)[0].en == "Revenue"
+    assert next(iter(guide)).en == "Revenue"

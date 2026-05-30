@@ -31,6 +31,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+from collections.abc import Iterator
 from typing import TYPE_CHECKING, Literal
 
 from vn_financial_terms.glossary import all_terms, by_domain
@@ -209,9 +210,9 @@ class TerminologyGuide:
         indent: int = 2,
     ) -> str:
         """Serialise the glossary to a JSON string (UTF-8)."""
-        rows: list[dict] = []
+        rows: list[dict[str, object]] = []
         for t in self._terms:
-            row: dict = {
+            row: dict[str, object] = {
                 source: t.vi if source == "vi" else t.en,
                 target: t.en if target == "en" else t.vi,
                 "domain": t.domain,
@@ -243,8 +244,16 @@ class TerminologyGuide:
         tgt_col = "en" if target == "en" else "vi"
         writer = csv.DictWriter(
             buf,
-            fieldnames=[src_col, tgt_col, "domain", "en_abbr", "vi_abbr",
-                        "vas_ref", "ifrs_ref", "notes"],
+            fieldnames=[
+                src_col,
+                tgt_col,
+                "domain",
+                "en_abbr",
+                "vi_abbr",
+                "vas_ref",
+                "ifrs_ref",
+                "notes",
+            ],
             extrasaction="ignore",
         )
         writer.writeheader()
@@ -275,7 +284,7 @@ class TerminologyGuide:
     # Filtering
     # ------------------------------------------------------------------
 
-    def filter(self, domains: list[str]) -> "TerminologyGuide":
+    def filter(self, domains: list[str]) -> TerminologyGuide:
         """Return a new guide restricted to the specified domains.
 
         Examples
@@ -286,9 +295,7 @@ class TerminologyGuide:
         True
         """
         needle = {d.casefold() for d in domains}
-        return TerminologyGuide(
-            terms=[t for t in self._terms if t.domain.casefold() in needle]
-        )
+        return TerminologyGuide(terms=[t for t in self._terms if t.domain.casefold() in needle])
 
     # ------------------------------------------------------------------
     # Dunder helpers
@@ -297,7 +304,7 @@ class TerminologyGuide:
     def __len__(self) -> int:
         return len(self._terms)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[Term]:
         return iter(self._terms)
 
     def __repr__(self) -> str:
