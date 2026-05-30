@@ -1,0 +1,331 @@
+# Vietnamese Accounting Standards (VAS) / IFRS aligned terms
+# References: VAS issued by Ministry of Finance; IFRS as adopted internationally
+
+- en: Revenue
+  vi: Doanh thu
+  domain: accounting
+  vas_ref: VAS 14
+  ifrs_ref: IFRS 15
+  definition_en: Income arising in the ordinary course of an entity's activities.
+  definition_vi: Thu nhập phát sinh trong quá trình hoạt động kinh doanh thông thường.
+
+- en: Cost of goods sold
+  vi: Giá vốn hàng bán
+  en_abbr: COGS
+  vi_abbr: GVHB
+  domain: accounting
+  notes: Also called "cost of sales" in services contexts.
+
+- en: Gross profit
+  vi: Lợi nhuận gộp
+  domain: accounting
+  definition_en: Revenue minus cost of goods sold.
+
+- en: Selling expenses
+  vi: Chi phí bán hàng
+  domain: accounting
+
+- en: General and administrative expenses
+  vi: Chi phí quản lý doanh nghiệp
+  en_abbr: G&A
+  domain: accounting
+  notes: Often abbreviated as CPQLDN in Vietnamese reports.
+
+- en: Operating profit
+  vi: Lợi nhuận từ hoạt động kinh doanh
+  en_abbr: EBIT
+  vi_abbr: EBIT
+  alt_en:
+    - Earnings before interest and taxes
+  domain: accounting
+  definition_en: Profit before interest expense and income tax.
+
+- en: Earnings before interest, taxes, depreciation, and amortization
+  vi: Lợi nhuận trước lãi vay, thuế, khấu hao và phân bổ
+  en_abbr: EBITDA
+  vi_abbr: EBITDA
+  domain: accounting
+  ifrs_ref: IAS 1
+  definition_en: A proxy for operating cash generation.
+
+- en: Net income
+  vi: Lợi nhuận sau thuế
+  vi_abbr: LNST
+  alt_en:
+    - Profit after tax
+  domain: accounting
+  definition_en: Profit remaining after all expenses and taxes.
+
+- en: Earnings per share
+  vi: Lợi nhuận trên mỗi cổ phiếu
+  en_abbr: EPS
+  domain: accounting
+  ifrs_ref: IAS 33
+
+- en: Total assets
+  vi: Tổng tài sản
+  domain: accounting
+  vas_ref: VAS 21
+
+- en: Fixed assets
+  vi: Tài sản cố định
+  vi_abbr: TSCĐ
+  alt_vi:
+    - Tài sản dài hạn hữu hình
+  domain: accounting
+  vas_ref: VAS 03
+  ifrs_ref: IAS 16
+  notes: VAS uses "Tài sản cố định hữu hình"; IFRS uses "Property, plant and equipment". Prefer "Tài sản cố định" in VAS-based reports.
+
+- en: Intangible assets
+  vi: Tài sản vô hình
+  vi_abbr: TSVH
+  domain: accounting
+  vas_ref: VAS 04
+  ifrs_ref: IAS 38
+
+- en: Current assets
+  vi: Tài sản ngắn hạn
+  alt_vi:
+    - Tài sản lưu động
+  domain: accounting
+  notes: '"Tài sản ngắn hạn" is the current VAS term; "tài sản lưu động" is older and still found in older documents.'
+
+- en: Non-current assets
+  vi: Tài sản dài hạn
+  domain: accounting
+
+- en: Inventory
+  vi: Hàng tồn kho
+  vi_abbr: HTK
+  domain: accounting
+  vas_ref: VAS 02
+  ifrs_ref: IAS 2
+
+- en: Accounts receivable
+  vi: Phải thu khách hàng
+  alt_en:
+    - Trade receivables
+  domain: accounting
+
+- en: Cash and cash equivalents
+  vi: Tiền và các khoản tương đương tiền
+  domain: accounting
+  ifrs_ref: IAS 7
+
+- en: Total liabilities
+  vi: Tổng nợ phải trả
+  domain: accounting
+
+- en: Short-term debt
+  vi: Vay và nợ thuê tài chính ngắn hạn
+  domain: accounting
+
+- en: Long-term debt
+  vi: Vay và nợ thuê tài chính dài hạn
+  domain: accounting
+
+- en: Accounts payable
+  vi: Phải trả người bán
+  alt_en:
+    - Trade payables
+  domain: accounting
+
+- en: Owner's equity
+  vi: Vốn chủ sở hữu
+  vi_abbr: VCSH
+  domain: accounting
+
+- en: Charter capital
+  vi: Vốn điều lệ
+  domain: accounting
+  notes: Equivalent to registered/authorized capital. Specific to Vietnamese corporate law.
+
+- en: Share capital
+  vi: Vốn cổ phần
+  domain: accounting
+
+- en: Retained earnings
+  vi: Lợi nhuận sau thuế chưa phân phối
+  alt_vi:
+    - Lợi nhuận giữ lại
+  domain: accounting
+  notes: Vietnamese term is longer than the English; use the full form in BCTC notes.
+
+- en: Goodwill
+  vi: Lợi thế thương mại
+  domain: accounting
+  vas_ref: VAS 11
+  ifrs_ref: IFRS 3
+
+- en: Depreciation
+  vi: Khấu hao tài sản cố định
+  alt_vi:
+    - Khấu hao
+  domain: accounting
+  vas_ref: VAS 03
+  ifrs_ref: IAS 16
+  notes: '"Khấu hao" alone is acceptable in context; full form preferred on first use.'
+
+- en: Amortization
+  vi: Phân bổ tài sản vô hình
+  alt_vi:
+    - Khấu hao tài sản vô hình
+  domain: accounting
+  vas_ref: VAS 04
+
+- en: Provision
+  vi: Dự phòng
+  domain: accounting
+  vas_ref: VAS 18
+  ifrs_ref: IAS 37
+  notes: In banking contexts "dự phòng rủi ro tín dụng" is the full term.
+
+- en: Deferred tax
+  vi: Thuế thu nhập hoãn lại
+  domain: accounting
+  vas_ref: VAS 17
+  ifrs_ref: IAS 12
+
+- en: Fair value
+  vi: Giá trị hợp lý
+  domain: accounting
+  ifrs_ref: IFRS 13
+  notes: VAS has no direct equivalent standard; IFRS 13 applies to IFRS reporters.
+
+- en: Book value
+  vi: Giá trị ghi sổ
+  alt_en:
+    - Carrying amount
+  domain: accounting
+
+- en: Net book value
+  vi: Giá trị còn lại
+  alt_en:
+    - Net carrying amount
+  domain: accounting
+
+- en: Operating cash flow
+  vi: Lưu chuyển tiền từ hoạt động kinh doanh
+  domain: accounting
+  ifrs_ref: IAS 7
+
+- en: Investing cash flow
+  vi: Lưu chuyển tiền từ hoạt động đầu tư
+  domain: accounting
+  ifrs_ref: IAS 7
+
+- en: Financing cash flow
+  vi: Lưu chuyển tiền từ hoạt động tài chính
+  domain: accounting
+  ifrs_ref: IAS 7
+
+- en: Capital expenditure
+  vi: Chi phí vốn
+  en_abbr: CAPEX
+  vi_abbr: CAPEX
+  domain: accounting
+
+- en: Working capital
+  vi: Vốn lưu động
+  alt_en:
+    - Net working capital
+  domain: accounting
+
+- en: Return on equity
+  vi: Tỷ suất lợi nhuận trên vốn chủ sở hữu
+  en_abbr: ROE
+  vi_abbr: ROE
+  domain: accounting
+
+- en: Return on assets
+  vi: Tỷ suất lợi nhuận trên tổng tài sản
+  en_abbr: ROA
+  vi_abbr: ROA
+  domain: accounting
+
+- en: Return on invested capital
+  vi: Tỷ suất lợi nhuận trên vốn đầu tư
+  en_abbr: ROIC
+  vi_abbr: ROIC
+  domain: accounting
+
+- en: Price-to-earnings ratio
+  vi: Hệ số giá trên thu nhập
+  en_abbr: P/E
+  vi_abbr: P/E
+  domain: accounting
+
+- en: Price-to-book ratio
+  vi: Hệ số giá trên giá trị sổ sách
+  en_abbr: P/B
+  vi_abbr: P/B
+  domain: accounting
+
+- en: Debt-to-equity ratio
+  vi: Hệ số nợ trên vốn chủ sở hữu
+  en_abbr: D/E
+  vi_abbr: D/E
+  domain: accounting
+
+- en: Financial statements
+  vi: Báo cáo tài chính
+  vi_abbr: BCTC
+  domain: accounting
+  notes: The four statements required under VAS are balance sheet, income statement, cash flow statement, and notes.
+
+- en: Balance sheet
+  vi: Bảng cân đối kế toán
+  domain: accounting
+  vas_ref: VAS 21
+
+- en: Income statement
+  vi: Báo cáo kết quả hoạt động kinh doanh
+  alt_en:
+    - Profit and loss statement
+  domain: accounting
+  vas_ref: VAS 21
+
+- en: Cash flow statement
+  vi: Báo cáo lưu chuyển tiền tệ
+  domain: accounting
+  vas_ref: VAS 24
+  ifrs_ref: IAS 7
+
+- en: Notes to financial statements
+  vi: Thuyết minh báo cáo tài chính
+  domain: accounting
+  vas_ref: VAS 21
+
+- en: Audit report
+  vi: Báo cáo kiểm toán
+  domain: accounting
+
+- en: Going concern
+  vi: Hoạt động liên tục
+  domain: accounting
+  ifrs_ref: IAS 1
+
+- en: Accrual basis
+  vi: Cơ sở dồn tích
+  alt_vi:
+    - Kế toán trên cơ sở dồn tích
+  domain: accounting
+  ifrs_ref: IAS 1
+
+- en: Lease
+  vi: Thuê tài sản
+  domain: accounting
+  vas_ref: VAS 06
+  ifrs_ref: IFRS 16
+
+- en: Finance lease
+  vi: Thuê tài chính
+  domain: accounting
+  vas_ref: VAS 06
+
+- en: Operating lease
+  vi: Thuê hoạt động
+  domain: accounting
+  vas_ref: VAS 06
+  ifrs_ref: IFRS 16

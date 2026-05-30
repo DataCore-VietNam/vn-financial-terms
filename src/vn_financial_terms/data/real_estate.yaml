@@ -1,0 +1,106 @@
+# Real estate and land-related terminology
+# References: Land Law No. 31/2024/QH15; Real Estate Business Law
+
+- en: Land use rights
+  vi: Quyền sử dụng đất
+  vi_abbr: QSDĐ
+  domain: real_estate
+  notes: A key concept in Vietnamese law; land ownership belongs to "the entire people" — individuals and organizations hold use rights, not freehold ownership.
+
+- en: Land use rights certificate
+  vi: Giấy chứng nhận quyền sử dụng đất
+  vi_abbr: GCNQSDĐ
+  alt_vi:
+    - Sổ đỏ
+    - Sổ hồng
+  domain: real_estate
+  notes: Colloquially "sổ đỏ" (red book) for land, "sổ hồng" (pink book) for combined land and property. Use "Giấy chứng nhận..." in formal contexts.
+
+- en: Floor area ratio
+  vi: Hệ số sử dụng đất
+  en_abbr: FAR
+  domain: real_estate
+
+- en: Construction coverage ratio
+  vi: Mật độ xây dựng
+  domain: real_estate
+
+- en: Land lease
+  vi: Thuê đất
+  domain: real_estate
+  notes: Land in Vietnam is leased from the state; "thuê đất" refers to this state land lease arrangement.
+
+- en: Residential land
+  vi: Đất ở
+  domain: real_estate
+
+- en: Agricultural land
+  vi: Đất nông nghiệp
+  domain: real_estate
+
+- en: Commercial and service land
+  vi: Đất thương mại dịch vụ
+  domain: real_estate
+
+- en: Industrial zone
+  vi: Khu công nghiệp
+  vi_abbr: KCN
+  domain: real_estate
+
+- en: Economic zone
+  vi: Khu kinh tế
+  vi_abbr: KKT
+  domain: real_estate
+
+- en: Urban area
+  vi: Khu đô thị
+  domain: real_estate
+
+- en: Apartment
+  vi: Căn hộ chung cư
+  alt_vi:
+    - Căn hộ
+  domain: real_estate
+
+- en: Villa
+  vi: Biệt thự
+  domain: real_estate
+
+- en: Townhouse
+  vi: Nhà phố
+  alt_vi:
+    - Nhà liền kề
+  domain: real_estate
+
+- en: Real estate investment trust
+  vi: Quỹ tín thác đầu tư bất động sản
+  en_abbr: REIT
+  vi_abbr: REIT
+  domain: real_estate
+
+- en: Property valuation
+  vi: Thẩm định giá bất động sản
+  alt_en:
+    - Real estate appraisal
+  domain: real_estate
+
+- en: Pre-sale
+  vi: Mở bán trước
+  alt_vi:
+    - Huy động vốn trước khi xây dựng
+  domain: real_estate
+  notes: Vietnamese law permits pre-sales only after the developer meets specific construction milestones.
+
+- en: Gross development value
+  vi: Tổng giá trị phát triển dự án
+  en_abbr: GDV
+  domain: real_estate
+
+- en: Net asset value
+  vi: Giá trị tài sản ròng
+  en_abbr: NAV
+  domain: real_estate
+
+- en: Occupancy rate
+  vi: Tỷ lệ lấp đầy
+  domain: real_estate

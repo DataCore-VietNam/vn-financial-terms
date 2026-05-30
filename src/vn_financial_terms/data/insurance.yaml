@@ -1,0 +1,93 @@
+# Insurance terminology
+# References: Law on Insurance Business No. 08/2022/QH15
+
+- en: Insurance premium
+  vi: Phí bảo hiểm
+  domain: insurance
+
+- en: Insurance claim
+  vi: Bồi thường bảo hiểm
+  alt_vi:
+    - Quyền lợi bảo hiểm
+  domain: insurance
+  notes: '"Bồi thường" is used for indemnity (non-life) insurance; "quyền lợi" for life insurance benefits.'
+
+- en: Insurance policy
+  vi: Hợp đồng bảo hiểm
+  domain: insurance
+
+- en: Policyholder
+  vi: Bên mua bảo hiểm
+  alt_vi:
+    - Chủ hợp đồng bảo hiểm
+  domain: insurance
+
+- en: Insured
+  vi: Người được bảo hiểm
+  domain: insurance
+
+- en: Beneficiary
+  vi: Người thụ hưởng
+  domain: insurance
+
+- en: Underwriting
+  vi: Thẩm định bảo hiểm
+  alt_vi:
+    - Bảo lãnh phát hành
+  domain: insurance
+  notes: In insurance context use "thẩm định bảo hiểm"; "bảo lãnh phát hành" applies to securities underwriting.
+
+- en: Reinsurance
+  vi: Tái bảo hiểm
+  domain: insurance
+
+- en: Deductible
+  vi: Mức khấu trừ
+  alt_vi:
+    - Khoản miễn thường
+  domain: insurance
+
+- en: Actuarial
+  vi: Bảo hiểm toán
+  alt_vi:
+    - Thống kê bảo hiểm
+  domain: insurance
+
+- en: Life insurance
+  vi: Bảo hiểm nhân thọ
+  domain: insurance
+
+- en: Non-life insurance
+  vi: Bảo hiểm phi nhân thọ
+  alt_en:
+    - General insurance
+    - Property and casualty insurance
+  domain: insurance
+
+- en: Health insurance
+  vi: Bảo hiểm sức khỏe
+  domain: insurance
+
+- en: Motor insurance
+  vi: Bảo hiểm xe cơ giới
+  domain: insurance
+
+- en: Loss ratio
+  vi: Tỷ lệ bồi thường
+  domain: insurance
+  definition_en: Claims paid divided by premiums earned.
+
+- en: Combined ratio
+  vi: Tỷ lệ tổng hợp
+  domain: insurance
+  definition_en: Loss ratio plus expense ratio. Below 100% indicates underwriting profit.
+
+- en: Solvency margin
+  vi: Biên khả năng thanh toán
+  domain: insurance
+  notes: Regulated by the Ministry of Finance; minimum solvency margin is defined in insurance law.
+
+- en: Surrender value
+  vi: Giá trị hoàn lại
+  domain: insurance
+  notes: Applies to life insurance policies only.

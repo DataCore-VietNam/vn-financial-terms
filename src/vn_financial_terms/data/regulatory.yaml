@@ -1,0 +1,130 @@
+# Regulatory, legal, and governance terminology
+# References: Vietnamese legislative system; MOF / SSC / SBV regulatory framework
+
+- en: State Securities Commission
+  vi: Ủy ban Chứng khoán Nhà nước
+  en_abbr: SSC
+  vi_abbr: UBCKNN
+  domain: regulatory
+  notes: The securities regulator, under the Ministry of Finance.
+
+- en: Ministry of Finance
+  vi: Bộ Tài chính
+  en_abbr: MOF
+  vi_abbr: BTC
+  domain: regulatory
+
+- en: Ministry of Planning and Investment
+  vi: Bộ Kế hoạch và Đầu tư
+  en_abbr: MPI
+  vi_abbr: BKHĐT
+  domain: regulatory
+
+- en: Circular
+  vi: Thông tư
+  vi_abbr: TT
+  domain: regulatory
+  notes: Issued by ministries to guide implementation of laws and decrees.
+
+- en: Decree
+  vi: Nghị định
+  vi_abbr: NĐ
+  domain: regulatory
+  notes: Issued by the government to provide detailed regulations.
+
+- en: Decision
+  vi: Quyết định
+  vi_abbr: QĐ
+  domain: regulatory
+
+- en: Resolution
+  vi: Nghị quyết
+  domain: regulatory
+
+- en: Law
+  vi: Luật
+  domain: regulatory
+
+- en: Enterprise Law
+  vi: Luật Doanh nghiệp
+  domain: regulatory
+
+- en: Securities Law
+  vi: Luật Chứng khoán
+  domain: regulatory
+
+- en: Investment Law
+  vi: Luật Đầu tư
+  domain: regulatory
+
+- en: Accounting Law
+  vi: Luật Kế toán
+  domain: regulatory
+
+- en: Tax Administration Law
+  vi: Luật Quản lý thuế
+  domain: regulatory
+
+- en: State Audit
+  vi: Kiểm toán Nhà nước
+  vi_abbr: KTNN
+  domain: regulatory
+
+- en: Vietnam Association of Certified Public Accountants
+  vi: Hội Kiểm toán viên hành nghề Việt Nam
+  en_abbr: VACPA
+  vi_abbr: VACPA
+  domain: regulatory
+
+- en: Vietnamese Accounting Standards
+  vi: Chuẩn mực kế toán Việt Nam
+  en_abbr: VAS
+  vi_abbr: VAS
+  domain: regulatory
+  notes: A set of 26 standards issued by MOF. Do NOT expand the abbreviation in BCTC references (e.g., keep "VAS 14").
+
+- en: Vietnamese Auditing Standards
+  vi: Chuẩn mực kiểm toán Việt Nam
+  en_abbr: VSA
+  vi_abbr: VSA
+  domain: regulatory
+
+- en: Prospectus
+  vi: Bản cáo bạch
+  domain: regulatory
+
+- en: Disclosure
+  vi: Công bố thông tin
+  vi_abbr: CBTT
+  domain: regulatory
+
+- en: Material information
+  vi: Thông tin trọng yếu
+  domain: regulatory
+
+- en: Related party
+  vi: Bên liên quan
+  domain: regulatory
+  ifrs_ref: IAS 24
+
+- en: Conflict of interest
+  vi: Xung đột lợi ích
+  domain: regulatory
+
+- en: Corporate governance
+  vi: Quản trị công ty
+  domain: regulatory
+
+- en: Board of directors
+  vi: Hội đồng quản trị
+  vi_abbr: HĐQT
+  domain: regulatory
+
+- en: Supervisory board
+  vi: Ban kiểm soát
+  domain: regulatory
+
+- en: General meeting of shareholders
+  vi: Đại hội đồng cổ đông
+  vi_abbr: ĐHĐCĐ
+  domain: regulatory

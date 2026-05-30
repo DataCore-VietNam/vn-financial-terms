@@ -1,0 +1,158 @@
+# Vietnamese tax terminology
+# References: Law on Tax Administration No. 38/2019/QH14; CIT Law No. 14/2008/QH12
+
+- en: Corporate income tax
+  vi: Thuế thu nhập doanh nghiệp
+  en_abbr: CIT
+  vi_abbr: TNDN
+  domain: tax
+  notes: Standard CIT rate is 20%. Preferential rates apply to qualifying sectors and locations.
+
+- en: Personal income tax
+  vi: Thuế thu nhập cá nhân
+  en_abbr: PIT
+  vi_abbr: TNCN
+  domain: tax
+
+- en: Value added tax
+  vi: Thuế giá trị gia tăng
+  en_abbr: VAT
+  vi_abbr: GTGT
+  domain: tax
+  notes: Standard rate 10%; reduced rate 5% for specified goods; 0% for exports.
+
+- en: Special consumption tax
+  vi: Thuế tiêu thụ đặc biệt
+  en_abbr: SCT
+  vi_abbr: TTĐB
+  domain: tax
+  notes: Applies to luxury and excisable goods (alcohol, tobacco, cars, etc.).
+
+- en: Import duty
+  vi: Thuế nhập khẩu
+  domain: tax
+
+- en: Export duty
+  vi: Thuế xuất khẩu
+  domain: tax
+
+- en: Natural resources tax
+  vi: Thuế tài nguyên
+  domain: tax
+
+- en: Environmental protection tax
+  vi: Thuế bảo vệ môi trường
+  domain: tax
+
+- en: Non-agricultural land use tax
+  vi: Thuế sử dụng đất phi nông nghiệp
+  domain: tax
+
+- en: Tax base
+  vi: Căn cứ tính thuế
+  domain: tax
+
+- en: Taxable income
+  vi: Thu nhập chịu thuế
+  domain: tax
+
+- en: Tax-exempt income
+  vi: Thu nhập được miễn thuế
+  domain: tax
+
+- en: Tax exemption
+  vi: Miễn thuế
+  domain: tax
+
+- en: Tax reduction
+  vi: Giảm thuế
+  domain: tax
+
+- en: Tax incentive
+  vi: Ưu đãi thuế
+  domain: tax
+  notes: Common incentives include preferential CIT rates, tax holidays, and accelerated depreciation.
+
+- en: Transfer pricing
+  vi: Chuyển giá
+  alt_vi:
+    - Giá chuyển nhượng
+  domain: tax
+  notes: Governed by Decree 132/2020/ND-CP. Use "chuyển giá" as the primary translation.
+
+- en: Double taxation treaty
+  vi: Hiệp định tránh đánh thuế hai lần
+  en_abbr: DTT
+  alt_en:
+    - Double taxation agreement
+    - Tax treaty
+  domain: tax
+
+- en: Tax declaration
+  vi: Kê khai thuế
+  domain: tax
+
+- en: Tax return
+  vi: Tờ khai thuế
+  domain: tax
+
+- en: Tax refund
+  vi: Hoàn thuế
+  domain: tax
+
+- en: Tax period
+  vi: Kỳ tính thuế
+  domain: tax
+
+- en: Fiscal year
+  vi: Năm tài chính
+  alt_vi:
+    - Năm tài khóa
+  domain: tax
+  notes: Vietnamese fiscal year is January 1 to December 31 for most entities.
+
+- en: Withholding tax
+  vi: Thuế khấu trừ tại nguồn
+  domain: tax
+
+- en: Deductible expense
+  vi: Chi phí được trừ
+  domain: tax
+
+- en: Non-deductible expense
+  vi: Chi phí không được trừ
+  domain: tax
+
+- en: Input VAT
+  vi: Thuế GTGT đầu vào
+  domain: tax
+
+- en: Output VAT
+  vi: Thuế GTGT đầu ra
+  domain: tax
+
+- en: Tax loss carryforward
+  vi: Chuyển lỗ
+  domain: tax
+  notes: Losses may be carried forward up to 5 consecutive years under current CIT law.
+
+- en: Advance pricing agreement
+  vi: Thỏa thuận trước về phương pháp xác định giá tính thuế
+  en_abbr: APA
+  domain: tax
+
+- en: Tax audit
+  vi: Kiểm tra thuế
+  alt_vi:
+    - Thanh tra thuế
+  domain: tax
+  notes: '"Kiểm tra thuế" is a routine audit; "thanh tra thuế" implies a more formal inspection.'
+
+- en: Tax code
+  vi: Mã số thuế
+  vi_abbr: MST
+  domain: tax
+
+- en: Tax administration
+  vi: Quản lý thuế
+  domain: tax

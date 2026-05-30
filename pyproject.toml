@@ -1,0 +1,129 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vn-financial-terms"
+version = "0.2.0"
+description = "Bilingual (Vietnamese <-> English) glossary of Vietnamese accounting, tax, banking, and regulatory terminology"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "DataCore Vietnam", email = "dev@datacore.vn" },
+]
+keywords = [
+    "vietnam",
+    "finance",
+    "accounting",
+    "tax",
+    "banking",
+    "glossary",
+    "translation",
+    "ai-translation",
+    "vas",
+    "ifrs",
+    "hose",
+    "hnx",
+    "terminology",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Natural Language :: Vietnamese",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Text Processing :: Linguistic",
+    "Typing :: Typed",
+]
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.7",
+    "mypy>=1.10",
+    "types-PyYAML>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/DataCore-VietNam/vn-financial-terms"
+Repository = "https://github.com/DataCore-VietNam/vn-financial-terms"
+Issues = "https://github.com/DataCore-VietNam/vn-financial-terms/issues"
+Changelog = "https://github.com/DataCore-VietNam/vn-financial-terms/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vn_financial_terms"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/vn_financial_terms",
+    "tests",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
+]
+
+# ---------------------------------------------------------------------------
+# Ruff
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM", "ANN", "RUF"]
+ignore = [
+    "ANN101",  # self annotation not required
+    "ANN102",  # cls annotation not required
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["ANN"]  # no annotations required in tests
+
+[tool.ruff.format]
+quote-style = "double"
+
+# ---------------------------------------------------------------------------
+# Mypy
+# ---------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+files = ["src"]
+
+[[tool.mypy.overrides]]
+module = "yaml"
+ignore_missing_imports = true
+
+# ---------------------------------------------------------------------------
+# Pytest
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=vn_financial_terms --cov-report=term-missing --cov-report=xml"
+
+[tool.coverage.run]
+source = ["vn_financial_terms"]
+omit = ["src/vn_financial_terms/data/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]

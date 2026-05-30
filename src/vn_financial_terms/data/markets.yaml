@@ -1,0 +1,183 @@
+# Capital markets / securities terminology
+# References: Securities Law No. 54/2019/QH14; SSC regulations
+
+- en: Ho Chi Minh Stock Exchange
+  vi: Sở Giao dịch Chứng khoán TP. Hồ Chí Minh
+  en_abbr: HOSE
+  vi_abbr: HOSE
+  domain: markets
+  notes: Main board for large-cap listed equities.
+
+- en: Hanoi Stock Exchange
+  vi: Sở Giao dịch Chứng khoán Hà Nội
+  en_abbr: HNX
+  vi_abbr: HNX
+  domain: markets
+  notes: Hosts SME equities, bonds, and derivatives markets.
+
+- en: Unlisted Public Company Market
+  vi: Thị trường giao dịch chứng khoán của công ty đại chúng chưa niêm yết
+  en_abbr: UPCoM
+  vi_abbr: UPCoM
+  domain: markets
+
+- en: VN-Index
+  vi: VN-Index
+  domain: markets
+  definition_en: HOSE composite index of all listed stocks, market-cap weighted.
+
+- en: HNX-Index
+  vi: HNX-Index
+  domain: markets
+
+- en: VN30
+  vi: VN30
+  domain: markets
+  definition_en: Index of the 30 largest and most liquid stocks on HOSE.
+
+- en: Market capitalization
+  vi: Vốn hóa thị trường
+  en_abbr: Market cap
+  domain: markets
+
+- en: Foreign ownership limit
+  vi: Tỷ lệ sở hữu nước ngoài tối đa
+  en_abbr: FOL
+  alt_en:
+    - Foreign room
+  alt_vi:
+    - Room ngoại
+  domain: markets
+  notes: Default FOL is 49% for listed companies; 0% for conditional sectors. Use "FOL" or "room ngoại" in context.
+
+- en: Trading session
+  vi: Phiên giao dịch
+  domain: markets
+
+- en: Circuit breaker
+  vi: Ngắt mạch thị trường
+  alt_vi:
+    - Cơ chế ngắt mạch
+  domain: markets
+
+- en: Settlement
+  vi: Thanh toán
+  domain: markets
+  notes: Vietnam uses T+2 settlement for equities.
+
+- en: Stock
+  vi: Cổ phiếu
+  alt_en:
+    - Share
+    - Equity
+  domain: markets
+  notes: '"Cổ phiếu" is the standard term. "Cổ phần" refers to the ownership unit in a joint-stock company.'
+
+- en: Bond
+  vi: Trái phiếu
+  domain: markets
+
+- en: Government bond
+  vi: Trái phiếu chính phủ
+  vi_abbr: TPCP
+  domain: markets
+
+- en: Corporate bond
+  vi: Trái phiếu doanh nghiệp
+  vi_abbr: TPDN
+  domain: markets
+
+- en: Derivative
+  vi: Chứng khoán phái sinh
+  domain: markets
+
+- en: Futures contract
+  vi: Hợp đồng tương lai
+  domain: markets
+
+- en: Covered warrant
+  vi: Chứng quyền có bảo đảm
+  en_abbr: CW
+  vi_abbr: CW
+  domain: markets
+
+- en: Exchange-traded fund
+  vi: Quỹ hoán đổi danh mục
+  en_abbr: ETF
+  vi_abbr: ETF
+  domain: markets
+
+- en: Dividend
+  vi: Cổ tức
+  domain: markets
+
+- en: Rights issue
+  vi: Phát hành quyền mua cổ phiếu
+  domain: markets
+
+- en: Initial public offering
+  vi: Chào bán cổ phiếu lần đầu ra công chúng
+  en_abbr: IPO
+  vi_abbr: IPO
+  domain: markets
+
+- en: Secondary public offering
+  vi: Chào bán cổ phiếu ra công chúng thứ cấp
+  domain: markets
+
+- en: Private placement
+  vi: Phát hành riêng lẻ
+  domain: markets
+
+- en: Bid price
+  vi: Giá đặt mua
+  domain: markets
+
+- en: Ask price
+  vi: Giá đặt bán
+  alt_en:
+    - Offer price
+  domain: markets
+
+- en: Trading volume
+  vi: Khối lượng giao dịch
+  domain: markets
+
+- en: Market maker
+  vi: Nhà tạo lập thị trường
+  domain: markets
+
+- en: Short selling
+  vi: Bán khống
+  domain: markets
+
+- en: Margin trading
+  vi: Giao dịch ký quỹ
+  domain: markets
+
+- en: Price ceiling
+  vi: Giá trần
+  domain: markets
+
+- en: Price floor
+  vi: Giá sàn
+  domain: markets
+
+- en: Reference price
+  vi: Giá tham chiếu
+  domain: markets
+
+- en: Order book
+  vi: Sổ lệnh
+  domain: markets
+
+- en: Liquidity
+  vi: Thanh khoản
+  domain: markets
+  notes: Context-dependent — "thanh khoản" in markets means trading liquidity; in banking it refers to funding liquidity.
+
+- en: Vietnam Depository and Clearing Corporation
+  vi: Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam
+  en_abbr: VSDCC
+  vi_abbr: VSD
+  domain: markets

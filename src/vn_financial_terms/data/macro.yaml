@@ -1,0 +1,117 @@
+# Macroeconomic terminology
+# References: General Statistics Office (GSO); SBV; IMF nomenclature adapted to Vietnam
+
+- en: Gross domestic product
+  vi: Tổng sản phẩm quốc nội
+  en_abbr: GDP
+  vi_abbr: GDP
+  domain: macro
+
+- en: Gross national product
+  vi: Tổng sản phẩm quốc dân
+  en_abbr: GNP
+  vi_abbr: GNP
+  domain: macro
+
+- en: Consumer price index
+  vi: Chỉ số giá tiêu dùng
+  en_abbr: CPI
+  vi_abbr: CPI
+  domain: macro
+  notes: Published monthly by the General Statistics Office (GSO/TCTK).
+
+- en: Producer price index
+  vi: Chỉ số giá sản xuất
+  en_abbr: PPI
+  vi_abbr: PPI
+  domain: macro
+
+- en: Inflation
+  vi: Lạm phát
+  domain: macro
+
+- en: Deflation
+  vi: Giảm phát
+  domain: macro
+
+- en: Core inflation
+  vi: Lạm phát cơ bản
+  domain: macro
+
+- en: Trade balance
+  vi: Cán cân thương mại
+  domain: macro
+
+- en: Current account
+  vi: Cán cân vãng lai
+  domain: macro
+
+- en: Capital and financial account
+  vi: Cán cân vốn và tài chính
+  domain: macro
+
+- en: Balance of payments
+  vi: Cán cân thanh toán quốc tế
+  en_abbr: BOP
+  domain: macro
+
+- en: Foreign direct investment
+  vi: Đầu tư trực tiếp nước ngoài
+  en_abbr: FDI
+  vi_abbr: FDI
+  domain: macro
+
+- en: Foreign portfolio investment
+  vi: Đầu tư gián tiếp nước ngoài
+  en_abbr: FPI
+  vi_abbr: FPI
+  alt_en:
+    - Foreign institutional investment
+  domain: macro
+
+- en: Exchange rate
+  vi: Tỷ giá hối đoái
+  alt_vi:
+    - Tỷ giá
+  domain: macro
+  notes: '"Tỷ giá" is acceptable in context; use the full form on first occurrence in formal documents.'
+
+- en: Central exchange rate
+  vi: Tỷ giá trung tâm
+  domain: macro
+  notes: The daily reference rate set by the SBV; commercial banks may trade within a +/-5% band.
+
+- en: Monetary policy
+  vi: Chính sách tiền tệ
+  domain: macro
+
+- en: Fiscal policy
+  vi: Chính sách tài khóa
+  domain: macro
+
+- en: State budget
+  vi: Ngân sách nhà nước
+  domain: macro
+
+- en: Public debt
+  vi: Nợ công
+  domain: macro
+  notes: Vietnam caps public debt at 60% of GDP under the Public Debt Management Law.
+
+- en: Economic growth rate
+  vi: Tốc độ tăng trưởng kinh tế
+  domain: macro
+
+- en: Unemployment rate
+  vi: Tỷ lệ thất nghiệp
+  domain: macro
+
+- en: Foreign exchange reserves
+  vi: Dự trữ ngoại hối nhà nước
+  domain: macro
+
+- en: Purchasing power parity
+  vi: Ngang giá sức mua
+  en_abbr: PPP
+  vi_abbr: PPP
+  domain: macro

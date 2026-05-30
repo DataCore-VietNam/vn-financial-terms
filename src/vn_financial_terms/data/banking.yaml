@@ -1,0 +1,220 @@
+# Banking and financial institution terminology
+# References: Law on Credit Institutions No. 32/2024/QH15; SBV circulars
+
+- en: State Bank of Vietnam
+  vi: Ngân hàng Nhà nước Việt Nam
+  en_abbr: SBV
+  vi_abbr: NHNN
+  domain: banking
+  notes: The central bank and monetary authority of Vietnam.
+
+- en: Commercial bank
+  vi: Ngân hàng thương mại
+  vi_abbr: NHTM
+  domain: banking
+
+- en: Credit institution
+  vi: Tổ chức tín dụng
+  vi_abbr: TCTD
+  domain: banking
+  notes: Umbrella term covering commercial banks, foreign bank branches, cooperative banks, and finance companies.
+
+- en: Non-performing loan
+  vi: Nợ xấu
+  en_abbr: NPL
+  vi_abbr: NPL
+  domain: banking
+  definition_en: Loans classified as doubtful or loss (Groups 3-5 under SBV Circular 11/2021).
+
+- en: Capital adequacy ratio
+  vi: Hệ số an toàn vốn
+  en_abbr: CAR
+  vi_abbr: CAR
+  domain: banking
+  notes: Minimum 8% under Basel II as adopted by SBV Circular 41/2016.
+
+- en: Loan-to-deposit ratio
+  vi: Tỷ lệ cho vay trên huy động vốn
+  en_abbr: LDR
+  domain: banking
+
+- en: Net interest margin
+  vi: Biên lãi ròng
+  en_abbr: NIM
+  vi_abbr: NIM
+  domain: banking
+  definition_en: Net interest income divided by average earning assets.
+
+- en: Current account savings account
+  vi: Tài khoản thanh toán và tiết kiệm
+  en_abbr: CASA
+  vi_abbr: CASA
+  domain: banking
+  notes: A higher CASA ratio signals lower funding cost. "CASA" is universally used in Vietnamese banking reports.
+
+- en: Non-interest income
+  vi: Thu nhập ngoài lãi
+  domain: banking
+
+- en: Net interest income
+  vi: Thu nhập lãi thuần
+  en_abbr: NII
+  domain: banking
+
+- en: Provision for credit losses
+  vi: Dự phòng rủi ro tín dụng
+  domain: banking
+  notes: Governed by SBV Circular 11/2021. Includes specific and general provisions.
+
+- en: Credit risk
+  vi: Rủi ro tín dụng
+  domain: banking
+
+- en: Market risk
+  vi: Rủi ro thị trường
+  domain: banking
+
+- en: Operational risk
+  vi: Rủi ro hoạt động
+  domain: banking
+
+- en: Liquidity risk
+  vi: Rủi ro thanh khoản
+  domain: banking
+
+- en: Basel III
+  vi: Basel III
+  domain: banking
+  notes: SBV is implementing Basel II; Basel III adoption is phased. Keep "Basel III" unchanged in both languages.
+
+- en: Deposit
+  vi: Tiền gửi
+  domain: banking
+
+- en: Loan
+  vi: Cho vay
+  alt_vi:
+    - Tín dụng
+  domain: banking
+  notes: '"Cho vay" refers to the lending activity; "tín dụng" (credit) is broader.'
+
+- en: Interest rate
+  vi: Lãi suất
+  domain: banking
+
+- en: Lending rate
+  vi: Lãi suất cho vay
+  domain: banking
+
+- en: Deposit rate
+  vi: Lãi suất huy động
+  domain: banking
+
+- en: Interbank rate
+  vi: Lãi suất liên ngân hàng
+  domain: banking
+
+- en: Overnight rate
+  vi: Lãi suất qua đêm
+  domain: banking
+
+- en: Refinancing rate
+  vi: Lãi suất tái cấp vốn
+  domain: banking
+  notes: SBV policy rate; equivalent to a central bank's key policy rate.
+
+- en: Discount rate
+  vi: Lãi suất chiết khấu
+  domain: banking
+
+- en: Letter of credit
+  vi: Thư tín dụng
+  en_abbr: L/C
+  vi_abbr: L/C
+  domain: banking
+
+- en: Bank guarantee
+  vi: Bảo lãnh ngân hàng
+  domain: banking
+
+- en: Repurchase agreement
+  vi: Hợp đồng mua lại
+  en_abbr: Repo
+  domain: banking
+
+- en: Reverse repurchase agreement
+  vi: Hợp đồng bán lại
+  en_abbr: Reverse repo
+  domain: banking
+
+- en: Open market operations
+  vi: Nghiệp vụ thị trường mở
+  en_abbr: OMO
+  vi_abbr: NVTTM
+  domain: banking
+
+- en: Required reserve ratio
+  vi: Tỷ lệ dự trữ bắt buộc
+  domain: banking
+
+- en: Mortgage
+  vi: Thế chấp
+  domain: banking
+
+- en: Collateral
+  vi: Tài sản đảm bảo
+  alt_vi:
+    - Tài sản thế chấp
+  domain: banking
+  notes: '"Tài sản đảm bảo" is the standard legal term; "tài sản thế chấp" implies mortgage specifically.'
+
+- en: Credit limit
+  vi: Hạn mức tín dụng
+  domain: banking
+
+- en: Debt restructuring
+  vi: Cơ cấu lại nợ
+  domain: banking
+
+- en: Anti-money laundering
+  vi: Phòng, chống rửa tiền
+  en_abbr: AML
+  vi_abbr: PCRT
+  domain: banking
+
+- en: Know your customer
+  vi: Định danh khách hàng
+  en_abbr: KYC
+  vi_abbr: KYC
+  domain: banking
+
+- en: Foreign exchange
+  vi: Ngoại hối
+  domain: banking
+
+- en: Foreign exchange reserves
+  vi: Dự trữ ngoại hối
+  domain: banking
+
+- en: Remittance
+  vi: Kiều hối
+  domain: banking
+
+- en: Credit score
+  vi: Điểm tín dụng
+  domain: banking
+
+- en: Fintech
+  vi: Công ty tài chính công nghệ
+  alt_vi:
+    - Fintech
+  domain: banking
+  notes: '"Fintech" is commonly used untranslated in Vietnamese financial media.'
+
+- en: Digital banking
+  vi: Ngân hàng số
+  domain: banking
+
+- en: Mobile payment
+  vi: Thanh toán di động
+  domain: banking
