@@ -203,16 +203,19 @@ def test_all_terms_domains_covered():
 # ---------------------------------------------------------------------------
 
 
-@pytest.mark.parametrize("domain,min_count", [
-    ("accounting", 30),
-    ("tax", 15),
-    ("banking", 15),
-    ("markets", 15),
-    ("regulatory", 10),
-    ("real_estate", 10),
-    ("insurance", 8),
-    ("macro", 10),
-])
+@pytest.mark.parametrize(
+    "domain,min_count",
+    [
+        ("accounting", 30),
+        ("tax", 15),
+        ("banking", 15),
+        ("markets", 15),
+        ("regulatory", 10),
+        ("real_estate", 10),
+        ("insurance", 8),
+        ("macro", 10),
+    ],
+)
 def test_by_domain_minimum_counts(domain, min_count):
     terms = by_domain(domain)
     assert len(terms) >= min_count, f"{domain}: expected >={min_count}, got {len(terms)}"
